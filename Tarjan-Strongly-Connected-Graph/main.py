@@ -1,7 +1,7 @@
 import random
 UNVISITED = -1
 
-with open("edges.txt", "r") as file:
+with open("Tarjan-Strongly-Connected-Graph\edges.txt", "r") as file:
     AllEdges = [line.replace('\n','').split('\t', 2) for line in file.readlines()]
     for edge in AllEdges:
         edge[2] = int(edge[2])
