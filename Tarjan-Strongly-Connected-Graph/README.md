@@ -4,7 +4,7 @@ Author: Michelle Loh<br>
 Updated: 14/8/2021<br>
 Descriptions:<br>
 Five cities were selected randomly through [here](https://randomcity.net/stockholm) and a graph is formed with weighted edges representing the distances between each cities.
-![Distances between each cities](assets\visual_distance.png)
+![Distances between each cities](https://github.com/Michelle-Lohwt/Algorithms/blob/main/Tarjan-Strongly-Connected-Graph/assets/visual_distance.png)
 
 ---
 
@@ -15,8 +15,8 @@ Tarjan's strongly connected components algorithm is an algorithm in graph theory
 O(n + m) where n is number of vertices and m is number of edges.
 
 ## Flowchart
-The overview flowchart is shown below, read [here](assets\tarjan_flowchart.png) for detailed flowchart:<br>
-![Tarjan Overview](assets\tarjan_overview.png)
+The overview flowchart is shown below, read [here](https://github.com/Michelle-Lohwt/Algorithms/blob/main/Tarjan-Strongly-Connected-Graph/assets/tarjan_flowchart.png) for detailed flowchart:<br>
+![Tarjan Overview](https://github.com/Michelle-Lohwt/Algorithms/blob/main/Tarjan-Strongly-Connected-Graph/assets/tarjan_overview.png)
 
 ## Conclusion
 Although Kosaraju and Tarjan have the same time complexity, Tarjan only goes through the depth-first-search traversal once.
